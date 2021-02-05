@@ -9,6 +9,10 @@
     <link rel="icon" type="imgage/png" href="assets/BoseaIcon.png">
     <link rel="stylesheet" href="./fonts/font-awesome.min.css">
     <link rel="stylesheet" href="bosea.css">
+    <link rel="stylesheet" href="pganimation.css">
+    <link rel="stylesheet" href="Features-Blue.css">
+    <link rel="stylesheet" href="News-Cards.css">
+    <link rel="stylesheet" href="Lightbox-Gallery.css">
 
 </head>
 
@@ -16,35 +20,22 @@
 
     <!-- Header
   ––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="backdrop"></div>
 
-    <header class="main-header">
-        <div class="boseatitle">Bosea</div><img class="imgg" src="assets/BoseaIcon.png" alt="">
+    <header class="ynavig">
+        <div class="dnav">
+            <a><span class="yehadzah">Bosea<img src="assets/BoseaIcon.png" alt=""></span></a>
+            <ul class="ynavitems" style="color: white">
+                <div class="droppdown  anchorlistyle3">
 
-        <nav class="main-header__nav">
-
-            <ul class="main-header__item-list">
-                <li class="ynavlist">
-                    <a href="" class="ynavlist menu-nav__link">
-                        Transaction
-                    </a>
-                </li>
-                <div class="droppdown">
-
-                    <a href="" class=" ynavlist menu-nav__link ">Loan<i class="fa fa-caret-down"
+                    <a href="" class=" ynavlist menu-nav__link anchorstyle2">Loan <i class="fa fa-caret-down"
                             aria-hidden="true"></i></a>
                     <div class="droppdown-content">
-                        <li class=" ynavlist">
+                        <li class="ynavlist">
                             <a href="./Dev.html" class="menu-nav__link">
                                 Request
                             </a>
                         </li>
                         <li class="ynavlist"> <a href="./Data.html" class="menu-nav__link">
-                                Balance
-                            </a>
-                        </li>
-                        <li class="ynavlist">
-                            <a href="./AI.html" class="menu-nav__link">
                                 Payment
                             </a>
                         </li>
@@ -56,57 +47,101 @@
                     </div>
 
                 </div>
-
                 <li class="ynavlist">
-                    <a href="./read/Blog.html" class=" ynavlist menu-nav__link">
+                    <a href="./read/Understanding-Bitcoin-And-Its-Friends.html" class=" ynavlist menu-nav__link">
+                        Blog
+                    </a>
+                </li>
+                <li class="ynavlist menu-nav__link anchorstyle2">
+                    <a href="" class=" ynavlist menu-nav__link">
                         About Us
                     </a>
                 </li>
+                <li class="ynavlist">
+                    <a href="" class=" ynavlist menu-nav__link">
+                        FAQ
+                    </a>
+                </li>
+                <li class="ynavlist" style=" margin-left: 40px;">
+
+                    <a href="tel:+233 54 989 2349" class=" ynavlist menu-nav__link"><i
+                            class="fa fa-phone footer-contacts-icon phonecall"></i></a>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <span class="menu-btn__burger"></span>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="menu-nav">
+                <a href="" class="insights">
+                    Loan:
+                </a>
+                <li class="menu-nav__item shift">
+                    <a href="./Dev.html" class="menu-nav__link">
+                        Request
+                    </a>
+                </li>
+                <li class="menu-nav__item shift navspace">
+                    <a href="./Data.html" class="menu-nav__link">
+                        Payment
+                    </a>
+                </li>
+                <li class="menu-nav__item shift active navspace">
+                    <a href="./AI.html" class="menu-nav__link">
+                        Policy
+                    </a>
+                </li>
+                <li class="menu-nav__item navspace">
+                    <a href="" class="menu-nav__link">
+                        Blog
+                    </a>
+                </li>
+                <li class="menu-nav__item active navspace">
+                    <a href="./read/blog.html" class="menu-nav__link">
+                        About Us
+                    </a>
+                </li>
+                <li class="menu-nav__item active navspace">
+                    <a href="./read/blog.html" class="menu-nav__link">
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+233 54 989 2349"><i class="fa fa-phone footer-contacts-icon phonecall"></i></a>
+                </li>
             </ul>
         </nav>
-        <span class="fa-reorder" id="side-menu-toggle"></span>
-        <!-- <span id="side-menu-toggle"></span> -->
     </header>
-
-
-
-    <!-- <button id="side-menu-toggle">Menu</button> -->
-    <nav class="mobile-nav">
-        <!-- <a><span class="boseatitle">Bosea</span></a> -->
-        <ul class="mobile-nav__item-list">
-            <li class="mobile-nav__item">
-                <a class="" href="">Transaction</a>
-            </li>
-            <li class="mobile-nav__item">
-                <a href="" style="text-decoration: none;" class="menu-nav__link">
-                    Loan Request
-                </a>
-            </li>
-            <li class="mobile-nav__item">
-                <a href="" class="">
-                    Balance
-                </a>
-            </li>
-            <li class="mobile-nav__item">
-                <a href="./AI.html" class="menu-nav__link">
-                    Payment
-                </a>
-            </li>
-            <li class="mobile-nav__item">
-                <a href="./AI.html" class="menu-nav__link">
-                    Policy
-                </a>
-            </li>
-            <li class="mobile-nav__item">
-                <a class="" href="">About Us
-                </a>
-            </li>
-        </ul>
-    </nav>
-
 
     <!-- Body Sections
   ––––––––––––––––––––––––––––––––––––––––– -->
+    <section class="dbluesec features-blue">
+        <div>
+            <div class="container">
+                <div class="intro">
+                    <h1 class="text-center" style="height:70px;font-style:normal;font-size:50px;">Democratizing Credit
+                    </h1>
+                    <p class="text-center">We focus on expanding Access to Financial Services in Ghana. Change the way
+                        you borrow
+                        through Bosea Micro Credit. With Bosea you can requeat for loans better and at a faster pace. We
+                        use mobile
+                        technology and data science to make financial
+                        services simple and accessible.</p>
+                    <button class="btnbutton" type="button" style="">Download App on Google
+                        Playstore</button><button class="btnbutton" type="button"
+                        style="left: 22%; background-color:rgb(10,13,16);">Coming soon on the Apple
+                        store</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="assets/screen-preview.png" alt="" style="height: 70vh; width: 30vw; margin-top: 20px;">
+        </div>
+    </section>
+
     <section class="mainsec">
         <section class="sec1">
             <h2>Get your Finance Life secured, with Bosea.</h2>
@@ -118,7 +153,7 @@
 
         <section class="sec2">
             <img src=assets/Bosealogo.png alt="loans, money, Bosea loans">
-            <button><span style="font-size: large;">Get a Loan</span></button>
+
         </section>
     </section>
 
@@ -151,12 +186,53 @@
         </div>
         <br />
 
-        <div style='text-align: center;'> -->
+        <div style='text-align: center;'>
             <span class="dot" onclick='currentSlide(1)'></span>
             <span class="dot" onclick='currentSlide(2)'></span>
             <span class="dot" onclick='currentSlide(3)'></span>
             <span class="dot" onclick='currentSlide(4)'></span>
         </div>
+    </section>
+
+    <!-- How Bosea works -->
+    <h1 style="margin-top:15vh; margin-left: 10vh;">How Bosea works</h1>
+    <section class="mainpg1">
+        <figure class="snip1527">
+            <div class="image"><img src="assets/dwnapp.jpg" alt="pr-sample23" /></div>
+            <figcaption>
+                <div class="date"><span class="day">1st</span><span class="month">Step</span></div>
+                <h3>Download the App</h3>
+                <p>
+                    Become one of the thousands of happy Bosea users! Download from the Google Play Store.
+                </p>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+        <figure class="snip1527">
+            <div class="image"><img src="assets/signimg.png"
+                    alt="pr-sample24" /></div>
+            <figcaption>
+                <div class="date"><span class="day">2nd</span><span class="month">Step</span></div>
+                <h3>Apply for a Loan</h3>
+                <p>
+                    Sign up directly in the Bosea app and fill out your personal information to apply for your first
+                    loan.
+                </p>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+        <figure class="snip1527">
+            <div class="image"><img src="assets/girlholdingmoney.jpg"
+                    alt="pr-sample25" /></div>
+            <figcaption>
+                <div class="date">😊</div>
+                <h3>You’re Approved!</h3>
+                <p>
+                    Once approved, congratulations! You’ve been approved for your first Bosea loan!
+                </p>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
     </section>
 
 
@@ -210,6 +286,18 @@
         </div>
     </footer>
 
+    <script>
+        const navbar = document.querySelector('.ynavig');
+        window.onscroll = () => {
+            if (window.scrollY > 300) {
+                navbar.classList.add('nav-active');
+                navbar.
+            } else {
+                navbar.classList.remove('nav-active');
+            }
+        };
+    </script>
+    <script src="toggle.js"></script>
     <script src="drawer.js"></script>
     <script src="slideshow.js"></script>
 </body>
