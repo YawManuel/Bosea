@@ -42,11 +42,13 @@
 }
 
 header.ynavig {
+    color: black;
     width: 100%;
     position: fixed;
     transition: 0.3s ease-in-out;
 }
 .nav-active {
+    color: black;
     text-decoration-color: black;
     background-color:#fff;
     box-shadow: 5px -1px 12px -5px grey;

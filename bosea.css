@@ -183,7 +183,7 @@ i {
 }
 
 .ynavlist {
-  color: black;
+  color: rgb(0, 0, 0);
   /* font-weight: bold; */
   padding-left: 25px;
 }
