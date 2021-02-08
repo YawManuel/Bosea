@@ -28,7 +28,7 @@ i {
  /* Dropdown Button */
 .anchorstyle {
   background-color: #425AD2;
-  color: white;
+  /* color: white; */
   font-size: 16px; 
   border: none;
 }
@@ -112,7 +112,7 @@ i {
 .ynavig {
  display:inline-block;
  position: fixed;
- color: white;
+ /* color: white; */
  height: 10vh;
  width: 100%;
  /* background: rgb(9,9,121);
@@ -183,22 +183,11 @@ i {
 }
 
 .ynavlist {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   /* font-weight: bold; */
   padding-left: 25px;
 }
 
- .menu-btn {
-  position: absolute;
-  z-index: 8;
-  right: 1rem;
-  top: 1rem;
-  height: 20px;
-  width: 28px;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; 
-} 
 
 .menu-btn__burger {
   position: absolute;
@@ -357,8 +346,8 @@ margin-bottom: 12px;
 .dbluesec {
 /* padding-bottom:30px; */
  display: grid;
- height: 80vh;
- color:#fff;
+ height: 100vh;
+ /* color:#fff; */
  /* background-color: #3b188e;
  background:linear-gradient(235deg, #172a74, #4f23c7);   */
  background: rgb(38,36,62);
@@ -505,11 +494,23 @@ border-radius: 7px;
 }
 
 .numbertext {
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   top: 0
+}
+
+.parthners h2 {
+  color: :#aaaaaa;
+  font-size: 44px;
+  text-align:center;
+  margin:0 10 60px;
+}
+.parthners p {
+  font-size: 24px;
+  text-align:center;
+  margin:0 10 60px;
 }
 
   /*  The Footer CSS
