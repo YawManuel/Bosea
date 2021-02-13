@@ -1,0 +1,399 @@
+
+@import 'config';
+:root {
+    --footcolor: #282d32;
+    --forecolor:#f9fdff ;
+    --mainfont: ;
+    --headerfont: ;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  }
+  
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: $generalFont
+    ;
+  }
+  
+  i {
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+  
+  /*  The Body Sections CSS
+   ****************************** */
+  .dbluesec {
+  //  padding-bottom:30px;
+   
+  //  color:#fff; 
+  //  background-color: #3b188e;
+  //  background:linear-gradient(235deg, #172a74, #4f23c7);
+  //  background: rgb(38,36,62);
+  // background: linear-gradient(327deg, rgba(38,36,62,1) 21%, rgba(38,81,190,0.9929191842900302) 58%, rgba(56,12,106,1) 79%);
+ 
+   }
+  .mainsec {
+   display: relative;
+  }
+  
+  .features-blue {
+    display: grid;
+   height: 100vh;
+   grid-gap: 25px;
+   padding: 0;
+   align-content: center;
+   list-style: none;
+   grid-template-columns: 1fr 1fr; 
+    color:#fff;
+    background:linear-gradient(135deg, #112a8b, #127277);
+    /* margin-top: 10%; */
+    padding-bottom:30px;
+  }
+  
+  @media (max-width:767px) {
+    .features-blue {
+      padding-bottom:10px;
+      display: grid;  
+      grid-gap: 25px;
+      padding: 0;
+      align-content: center;
+      list-style: none;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .features-blue p {
+    line-height: 1.7;
+    font-family: lucida Sans;
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    margin-top: 20px;
+  }
+  
+  .features-blue h1 {
+    font-weight:bold;
+    margin-bottom:40px;
+    // padding-top:40px;
+    color: #fff;
+  }
+  
+  @media (max-width:767px) {
+    .features-blue h1 {
+      // margin-bottom:25px;
+      // padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .features-blue .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 60px;
+  }
+  
+  @media (max-width:767px) {
+    .features-blue .intro {
+      margin-bottom:40px;
+    }
+  }
+  
+  .features-blue .item {
+    min-height:100px;
+    padding-left:80px;
+    margin-bottom:40px;
+  }
+  
+  @media (max-width:767px) {
+    .features-blue .item {
+      min-height:0;
+    }
+  }
+  
+  .features-blue .item .name {
+    font-size:20px;
+    font-weight:bold;
+    margin-top:0;
+    margin-bottom:20px;
+    color:inherit;
+  }
+  
+  .features-blue .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .features-blue .item .icon {
+    font-size:40px;
+    color:#ffcc1e;
+    float:left;
+    margin-left:-65px;
+  }
+  
+  // main sec 2 
+  .mainsec {
+    @include grid;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    img {
+      height: 170px;
+      width: 150px;
+    }
+   }
+  .sec1, .sec2 {
+    /* height: 50px; */
+    // width: 100%;
+  }
+  .sec1 {
+    width: 85vh;
+    padding-bottom: 50px;
+  }
+  .sec2 {
+    margin-bottom: 50px;
+  }
+  
+  .sec1 h2 {
+    font-family: 'Lucida Sans';
+    font-size: 200%;
+    font-weight: 800;
+    color: #2b4f97;
+    padding-top: 50px;
+    /* margin-top: 50px;
+    padding: 10px; */
+    align-items: center;
+  }
+  .sec1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: medium;
+    line-height: 1.5;
+    padding: 10px;
+    color: rgb(77, 70, 70);
+  }
+  
+  .sec2 img {
+    display: absolute;
+    height: 50vh;
+    width: 50vw;
+    padding-top: 10%;
+    // margin-top: 10px; 
+  }
+
+  //  Slideshow
+  .slideshow, .slideshow-container {
+    background-color: $blueBackground;
+    background: $dblueGradient;
+  }
+  
+  //  How Bosea works
+  .mainpg1 {
+    display: grid;
+    margin-top: 45px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  
+  .mainpg1 p {
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    padding-left: 15px;
+    margin-bottom: 20px;
+    /* padding-top: 5px; */
+  }
+  
+  @media (min-width: 765px) {
+    .mainsec {
+      display: grid;  
+      grid-gap: 25px;
+      /* padding: 0; */
+      align-content: center;
+      list-style: none;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sec button span {
+      font-size: 80px;
+    }
+    .sec2 h2 {
+      margin-top: 450px;
+    }
+  }
+  
+  /* The slideshow */
+  .slideshow-container {
+    max-width: 1000px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    background-color: #000000;
+    
+  }
+  
+  .mySlides {
+    margin: 20px;
+  padding: 10px;  
+  display: none;
+  height: 400px;
+  }
+  
+  .mySlides img {
+  padding: 10px;  
+  height: 350px;
+  border-radius: 7px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 5vh;
+    font-weight: 200px;
+    font-family: lucida;
+    align-content: center;
+    padding-left: 10%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 100px;
+    width: 80%;
+    text-align: center; 
+  }
+  
+  .numbertext {
+    /* color: #f2f2f2; */
+    font-size: 22px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+  }
+  
+  .parthners h2 {
+    color:#aaaaaa;
+    font-size: 44px;
+    text-align:center;
+    margin:0 10 60px;
+  }
+  .parthners p {
+    font-size: 24px;
+    text-align:center;
+    margin:0 10 60px;
+  }
+
+  .article-list {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .article-list p {
+    color:#7d8285;
+  }
+  
+  .article-list h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .article-list h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .article-list .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .article-list .intro p {
+    margin-bottom:0;
+  }
+  
+  .article-list .articles {
+    padding-bottom:40px;
+  }
+  
+  .article-list .item {
+    padding-top:50px;
+    min-height:425px;
+    text-align:center;
+  }
+  
+  .article-list .item .name {
+    font-weight:bold;
+    font-size:16px;
+    margin-top:20px;
+    color:inherit;
+  }
+  
+  .article-list .item .description {
+    font-size:14px;
+    margin-top:15px;
+    margin-bottom:0;
+  }
+  
+  .article-list .item .action {
+    font-size:24px;
+    width:24px;
+    margin:22px auto 0;
+    line-height:1;
+    display:block;
+    color:#4f86c3;
+    opacity:0.85;
+    transition:opacity 0.2s;
+    text-decoration:none;
+  }
+  
+  .article-list .item .action:hover {
+    opacity:1;
+  }
+
+  // Customers
+  .cust {
+    background-color: $blueBackground;
+    background: $dblueGradient;
+    .h1 {
+      color: white;
+    }
+  }
+  // img {
+  //   border-radius:5px;
+  // }
+  
+  // img {
+  //   border-radius:5px;
+  // }
+  
+  // .partners {
+  //   padding-bottom:10px;
+  //   display: grid;  
+  //   grid-gap: 25px;
+  //   padding: 0;
+  //   align-content: center;
+  //   list-style: none;
+  // }
+  // @media (min-width: 768) {
+    .partners {
+      @include grid;
+      margin-left: 8%;
+      margin-bottom: 8%;
+      grid-template-columns: 1fr 1fr 1fr;
+      h1  {
+        font-weight: 500;
+        margin: 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+     }
+    }
+
+ 
+
+  
+  
+    

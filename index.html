@@ -6,14 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bosea.com</title>
-    <link rel="icon" type="imgage/png" href="assets/BoseaIcon.png">
-    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="bosea.css">
-    <link rel="stylesheet" href="pganimation.css">
-    <link rel="stylesheet" href="Features-Blue.css">
-    <link rel="stylesheet" href="News-Cards.css">
-    <link rel="stylesheet" href="Lightbox-Gallery.css">
-
+    <link rel="icon" type="imgage/png" href="assets/Icons/BoseaIcon.png">
+    <link rel="stylesheet" href="./assets/Fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="Sass/powercs.css">
 </head>
 
 <body>
@@ -23,7 +18,7 @@
 
     <header class="ynavig">
         <div class="dnav">
-            <a><span class="yehadzah ynavlist1">Bosea<img src="assets/BoseaIcon.png" alt=""></span></a>
+            <a><span class="yehadzah ynavlist1">Bosea<img src="assets/Icons/BoseaIcon.png" alt=""></span></a>
             <ul class="ynavitems" style="color: white">
                 <div class="droppdown  anchorlistyle3">
 
@@ -47,18 +42,18 @@
                     </div>
 
                 </div>
-                <li class="">
-                    <a href="./read/Understanding-Bitcoin-And-Its-Friends.html" class=" ynavlist3 menu-nav__link">
+                <li class="ynavlist">
+                    <a href="" class=" ynavlist3 menu-nav__link">
                         Blog
                     </a>
                 </li>
-                <li class="ynavlist menu-nav__link anchorstyle2">
-                    <a href="" class=" ynavlist4 menu-nav__link">
+                <li class="ynavlist">
+                    <a href="aboutUs.html" class=" ynavlist4 menu-nav__link">
                         About Us
                     </a>
                 </li>
                 <li class="ynavlist">
-                    <a href="" class="ynavlist5 menu-nav__link anchorstyle2">
+                    <a href="FAQ.html" class="ynavlist5 menu-nav__link anchorstyle2">
                         FAQ
                     </a>
                 </li>
@@ -117,34 +112,33 @@
 
     <!-- Body Sections
   ––––––––––––––––––––––––––––––––––––––––– -->
-    <section class="dbluesec features-blue">
-        <div>
-            <div class="container">
-                <div class="intro">
-                    <h1 class="text-center" style="height:70px;font-style:normal;font-size:50px;">Democratizing Credit
-                    </h1>
-                    <p class="text-center">We focus on expanding Access to Financial Services in Ghana. Change the way
-                        you borrow
-                        through Bosea Micro Credit. With Bosea you can requeat for loans better and at a faster pace. We
-                        use mobile
-                        technology and data science to make financial
-                        services simple and accessible.</p>
-                    <button class="btnbutton" type="button" style="">Download App on Google
-                        Playstore</button><button class="btnbutton" type="button"
-                        style="left: 22%; background-color:rgb(10,13,16);">Coming soon on the Apple
-                        store</button>
-                </div>
-            </div>
+    <section class="features-blue">
+
+        <div class="">
+            <h1 class="text-center" style="height:70px;font-style:normal;font-size:50px; margin-left: 2%;">Democratizing
+                Credit
+            </h1>
+            <p class="" style="">We focus on expanding Access to Financial Services in Ghana. Change the
+                way
+                you borrow
+                through Bosea Micro Credit. With Bosea you can requeat for loans better and at a faster pace. We
+                use mobile
+                technology and data science to make financial
+                services simple and accessible.</p>
+            <button class="btnbutton" type="button" style="left: 20px;">Download App on Google
+                Playstore</button><button class="btnbutton" type="button"
+                style="left: 250px; background-color:rgb(10,13,16);">Coming soon on the Apple
+                store</button>
         </div>
 
-        <div>
-            <img src="assets/screen-preview.png" alt="" style="height: 70vh; width: 30vw; margin-top: 15px;">
-        </div>
+        <img src="assets/IndexImg/bluesecimg.png" alt="" style="height: 85%; width: 90%;">
+
     </section>
 
+    <!-- main sec2 -->
     <section class="mainsec">
         <section class="sec1">
-            <h2>Get your Finance Life secured, with Bosea.</h2>
+            <h2>Get your Financial Life secured, with Bosea.</h2>
             <p>At Bosea, your financial life is secured. Get your instant Loans at
                 anywhere and anytime. With Bosea, you, your business, project, schooling,
                 is always safe from finance disaster.
@@ -152,17 +146,17 @@
         </section>
 
         <section class="sec2">
-            <img src=assets/Bosealogo.png alt="loans, money, Bosea loans">
+            <img src=assets/IndexImg/Bosealogo.png alt="loans, money, Bosea loans">
 
         </section>
     </section>
 
     <!-- The slideshow -->
-    <section style="height: 400px; background-color: aliceblue">
+    <section style="height: 400px;" class="slideshow">
         <div class="slideshow-container" style="background-color: aliceblue">
             <div class="mySlides fade">
 
-                <img src='./assets/MarketWomen.jpg' style='width: 100%;' alt="Trading loans" />
+                <img src='./assets/IndexImg/MarketWomen.jpg' style='width: 100%;' alt="Trading loans" />
                 <div class="text">
                     <div class="divtxt">We provide <Loans></Loans> for your Trade </div>
                 </div>
@@ -170,7 +164,7 @@
 
             <div class="mySlides fade">
 
-                <img src='./assets/Students.jpg' style='width: 100%;' alt="Students loan" />
+                <img src='./assets/IndexImg/Students.jpg' style='width: 100%;' alt="Students loan" />
                 <div class="text">
                     <div class="divtxt">Keeping you going and happy in your Education with our students' loans</div>
                 </div>
@@ -178,7 +172,7 @@
 
             <div class="mySlides fade">
 
-                <img src='./assets/OnPhone.jpg' style='width: 100%;' alt="e-loans" />
+                <img src='./assets/IndexImg/OnPhone.jpg' style='width: 100%;' alt="e-loans" />
                 <div class="text">
                     <div class="divtxt"> Serving everyone, with Bosea e-loans</div>
                 </div>
@@ -195,158 +189,169 @@
     </section>
 
     <!-- How Bosea works -->
-    <h1 style="margin-top:15vh; margin-left: 10vh;">How Bosea works</h1>
     <section class="mainpg1">
-        <figure class="snip1527">
-            <div class="image"><img src="assets/dwnapp.jpg" alt="pr-sample23" /></div>
-            <figcaption>
-                <div class="date"><span class="day">1st</span><span class="month">Step</span></div>
-                <h3>Download the App</h3>
-                <p>
-                    Become one of the thousands of happy Bosea users! Download from the Google Play Store.
-                </p>
-            </figcaption>
-            <a href="#"></a>
-        </figure>
-        <figure class="snip1527">
-            <div class="image"><img src="assets/signimg.png" alt="pr-sample24" /></div>
-            <figcaption>
-                <div class="date"><span class="day">2nd</span><span class="month">Step</span></div>
-                <h3>Apply for a Loan</h3>
-                <p>
-                    Sign up directly in the Bosea app and fill out your personal information to apply for your first
-                    loan.
-                </p>
-            </figcaption>
-            <a href="#"></a>
-        </figure>
-        <figure class="snip1527">
-            <div class="image"><img src="assets/girlholdingmoney.jpg" alt="pr-sample25" /></div>
-            <figcaption>
-                <div class="date">😊</div>
-                <h3>You’re Approved!</h3>
-                <p>
-                    Once approved, congratulations! You’ve been approved for your first Bosea loan!
-                </p>
-            </figcaption>
-            <a href="#"></a>
-        </figure>
+        <div class="article-list">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center"></h2>
+                    <p class="text-center" style="font-size: 10vh;">How Bosea Works</p>
+                </div>
+                <div class="mainsec articles">
+                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid"
+                                src="assets/IndexImg/download.png" /></a>
+                        <h3 class="name">Download The App</h3>
+                        <p class="description">Become one of the thousands of happy Bosea users! Download from the
+                            Google Play Store.</p><a href="#" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/IndexImg/forms.png" /></a>
+                        <h3 class="name">Apply for Loan</h3>
+                        <p class="description">Sign up directly in the Bosea app and fill out your personal information
+                            to apply for your first loan..</p><a href="#" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid"
+                                src="assets/IndexImg/approved.png" /></a>
+                        <h3 class="name">You're Approved</h3>
+                        <p class="description">Once approved, congratulations! You’ve been approved for your first Bosea
+                            loan!p><a href="#" class="action"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-        <section class="card-section-imagia">
-            <h1>Our Customers</h1>
-            <h2>Testimonies from our customers</h2>
-            <div class="container">
-                <div class="customers">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card-container-imagia">
-                            <div class="card-imagia">
-                                <div class="front-imagia">
-                                    <div class="cover-imagia"><img src="assets/teacherWall.jpg" alt />
-                                    </div>
-                                    <div class="user-imagia"><img src="assets/teacher.jpg"
-                                            class="img-circle" alt /></div>
-                                    <div class="content-imagia">
-                                        <h3 class="name-imagia">John Doe</h3>
-                                        <p class="subtitle-imagia">Teacher</p>
-                                        <p class="text-center"><em>Am a High School teacher at Legon University Practice school</em></p>
-                                    </div>
-                                    <div class="footer-imagia"><span><i class="fa fa-plus"></i>More info</span></div>
+    <!-- OUr Customers -->
+    <section class="card-section-imagia cust" style="background: linear-gradient(135deg, #112a8b, #127277);;">
+        <h1 style="color: white;">Our Customers</h1>
+        <h2>Testimonies from our customers</h2>
+        <div class="container">
+            <div class="customers">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card-container-imagia">
+                        <div class="card-imagia">
+                            <div class="front-imagia">
+                                <div class="cover-imagia"><img src="assets/IndexImg/teacherWall.jpg" alt />
                                 </div>
-                                <div class="back-imagia">
-                                    <div class="content-imagia content-back-imagia">
-                                        <div>
-                                            <h3 class="text-center">Thank You! Bosea</h3>
-                                            <p class="text-center">With Bosea, was able to secure a loan during the lockdown to 
-                                                cater for my family</p>
-                                        </div>
+                                <div class="user-imagia"><img src="assets/IndexImg/teacher.jpg" class="img-circle"
+                                        alt /></div>
+                                <div class="content-imagia">
+                                    <h3 class="name-imagia">John Doe</h3>
+                                    <p class="subtitle-imagia">Teacher</p>
+                                    <p class="text-center"><em>Am a High School teacher at Legon University Practice
+                                            school</em></p>
+                                </div>
+                                <div class="footer-imagia"><span><i class="fa fa-plus"></i>More info</span></div>
+                            </div>
+                            <div class="back-imagia">
+                                <div class="content-imagia content-back-imagia">
+                                    <div>
+                                        <h3 class="text-center">Thank You! Bosea</h3>
+                                        <p class="text-center">With Bosea, was able to secure a loan during the lockdown
+                                            to
+                                            cater for my family</p>
                                     </div>
-                                    <!-- <div class="footer-imagia">
+                                </div>
+                                <!-- <div class="footer-imagia">
                                         <div class="social-imagia text-center"><a href="#"><i
                                                     class="fa fa-facebook"></i></a><a href="#"><i
                                                     class="fa fa-linkedin"></i></a><a href="#"><i
                                                     class="fa fa-twitter"></i></a></div>
                                     </div> -->
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card-container-imagia">
-                            <div class="card-imagia">
-                                <div class="front-imagia">
-                                    <div class="cover-imagia cover-gradient"><img src="assets/legoncamp.jpg" alt=""></div>
-                                    <div class="user-imagia"><img src="assets/legonlady.jpg"
-                                            class="img-circle" alt /></div>
-                                    <div class="content-imagia">
-                                        <h3 class="name-imagia">Tracy Paula</h3>
-                                        <p class="subtitle-imagia">Student</p>
-                                        <p class="text-center"><em>Am a level 400 Economist student></p>
-                                    </div>
-                                    <div class="footer-imagia"><span><i class="fa fa-plus"></i>More info</span></div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card-container-imagia">
+                        <div class="card-imagia">
+                            <div class="front-imagia">
+                                <div class="cover-imagia cover-gradient"><img src="assets/IndexImg/legoncamp.jpg"
+                                        alt=""></div>
+                                <div class="user-imagia"><img src="assets/IndexImg/legonlady.jpg" class="img-circle"
+                                        alt /></div>
+                                <div class="content-imagia">
+                                    <h3 class="name-imagia">Tracy Paula</h3>
+                                    <p class="subtitle-imagia">Student</p>
+                                    <p class="text-center"><em>Am a level 400 Economist student></p>
                                 </div>
-                                <div class="back-imagia">
-                                    <div class="content-imagia content-back-imagia">
-                                        <div>
-                                            <h3 class="text-center">Thank You! Bosea</h3>
-                                            <p class="text-center">With Bosea, I have been able to secure my schooling 
-                                                finance and have some money to take care of my self whilst on campus </p>
-                                        </div>
+                                <div class="footer-imagia"><span><i class="fa fa-plus"></i>More info</span></div>
+                            </div>
+                            <div class="back-imagia">
+                                <div class="content-imagia content-back-imagia">
+                                    <div>
+                                        <h3 class="text-center">Thank You! Bosea</h3>
+                                        <p class="text-center">With Bosea, I have been able to secure my schooling
+                                            finance and have some money to take care of my self whilst on campus </p>
                                     </div>
-                                    <!-- <div class="footer-imagia">
+                                </div>
+                                <!-- <div class="footer-imagia">
                                         <div class="social-imagia text-center"><a href="#"><i
                                                     class="fa fa-facebook"></i></a><a href="#"><i
                                                     class="fa fa-linkedin"></i></a><a href="#"><i
                                                     class="fa fa-twitter"></i></a></div>
                                     </div> -->
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card-container-imagia">
-                            <div class="card-imagia">
-                                <div class="front-imagia">
-                                    <div class="cover-imagia"><img src="assets/waakyeWall.jpg" alt />
-                                    </div>
-                                    <div class="user-imagia"><img src="assets/waakyeSeller.jpg"
-                                            class="img-circle" alt /></div>
-                                    <div class="content-imagia">
-                                        <h3 class="name-imagia">Hajia Memuna</h3>
-                                        <p class="subtitle-imagia">Waakye Seller</p>
-                                        <p class="text-center"><em>Am a Waakye Seller at Madina Zongo-Junction</em></p>
-                                    </div>
-                                    <div class="footer-imagia"><span><i class="fa fa-plus"></i>More info</span></div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card-container-imagia">
+                        <div class="card-imagia">
+                            <div class="front-imagia">
+                                <div class="cover-imagia"><img src="assets/IndexImg/waakyeWall.jpg" alt />
                                 </div>
-                                <div class="back-imagia">
-                                    <div class="content-imagia content-back-imagia">
-                                        <div>
-                                            <h3 class="text-center">Thank You! Bosea</h3>
-                                            <p class="text-center">With Bosea Loans, I have been a able to secure money to 
-                                                expand my Waakye business across madina and continue to provide good healthy food
-                                                to my customers.
-                                            </p>
-                                        </div>
+                                <div class="user-imagia"><img src="assets/IndexImg/waakyeSeller.jpg" class="img-circle"
+                                        alt /></div>
+                                <div class="content-imagia">
+                                    <h3 class="name-imagia">Hajia Memuna</h3>
+                                    <p class="subtitle-imagia">Waakye Seller</p>
+                                    <p class="text-center"><em>Am a Waakye Seller at Madina Zongo-Junction</em></p>
+                                </div>
+                                <div class="footer-imagia"><span><i class="fa fa-plus"></i>More info</span></div>
+                            </div>
+                            <div class="back-imagia">
+                                <div class="content-imagia content-back-imagia">
+                                    <div>
+                                        <h3 class="text-center">Thank You! Bosea</h3>
+                                        <p class="text-center">With Bosea Loans, I have been a able to secure money to
+                                            expand my Waakye business across madina and continue to provide good healthy
+                                            food
+                                            to my customers.
+                                        </p>
                                     </div>
-                                    <!-- <div class="footer-imagia">
+                                </div>
+                                <!-- <div class="footer-imagia">
                                         <div class="social-imagia text-center"><a href="#"><i
                                                     class="fa fa-facebook"></i></a><a href="#"><i
                                                     class="fa fa-linkedin"></i></a><a href="#"><i
                                                     class="fa fa-twitter"></i></a></div>
                                     </div> -->
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    <section class="parthners" style="margin-left: 10%; margin-right: 10%; background-color: ;">
-        <h2> Meet Our Partners</h2>
-        <p> At Bosea, Bosea with our Parthners provide you with a secured financial life</p>
-        <img src="assets/cust-img.jpg" style="width: 100%; height: 100%;
-        background-color: aliceblue; margin: 10%;" alt="">
+    <section class="" >
+        <div style="margin-left: 177px; margin-bottom: 120px;">
+            <h1 style=" margin: 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-size: 10vh;
+        ">Meet Our Partners</h1>
+            <h2>With our Partners, we Provide you with the Best in Finance</h2>
+        </div>
+        <div class="partners">
+            <img src="assets/IndexImg/pavelon.png" alt="">
+            <img src="assets/IndexImg/GhIPSSlogo.png" alt="">
+            <img src="assets/IndexImg/payjoylogo.png" alt="">
+            <img src="assets/IndexImg/MTN-logo.jpg" alt="">
+            <img src="" alt="">
+            <img src="assets/IndexImg/zenithbank.png" alt="">
+        </div>
     </section>
 
 
@@ -430,9 +435,9 @@
             }
         };
     </script>
-    <script src="toggle.js"></script>
-    <script src="drawer.js"></script>
-    <script src="slideshow.js"></script>
+    <script src="./JS/toggle.js"></script>
+    <script src="./JS/drawer.js"></script>
+    <script src="./JS/slideshow.js"></script>
 </body>
 
 </html>
