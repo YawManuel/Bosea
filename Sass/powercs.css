@@ -577,12 +577,12 @@ i {
   margin: 20px;
   padding: 10px;
   display: none;
-  height: 400px;
+  height: 85vh;
 }
 
 .mySlides img {
   padding: 10px;
-  height: 350px;
+  height: 85vh;
   border-radius: 7px;
 }
 
