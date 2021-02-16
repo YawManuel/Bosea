@@ -3,8 +3,8 @@
 :root {
     --footcolor: #282d32;
     --forecolor:#f9fdff ;
-    --mainfont: ;
-    --headerfont: ;
+    // --mainfont: ;
+    // --headerfont: ;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   }
   
@@ -15,7 +15,6 @@
   
   body {
     font-family: $generalFont
-    ;
   }
   
   i {
